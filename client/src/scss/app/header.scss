@@ -1,0 +1,21 @@
+.header {
+    background: #ffa726 ;
+}
+.header__box {
+    display: flex;
+    justify-content: space-between;
+}
+.header__images {
+    display: block;
+    height: 56px;
+}
+.header__item--info {
+    text-align: right;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 5px;
+    &:last-child {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,49 @@
+.modal-order__box {
+    position: fixed;
+    background: #fff;
+    width: 36%;
+    border-radius: 8px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    margin: 100px 32% 0;
+}
+.modal-order__box--headline {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+}
+.modal-order__form {
+    margin: 0 15px;
+}
+.modal-order__form--info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+.modal-order__form--info-span {
+    font-weight: 700;
+}
+.modal-order__form--input {
+    width: 100%;
+}
+.modal-order__form--block {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.modal-order__form--block-button {
+    margin-right: 15px;
+    width: 30%;
+    background: #00a814;
+    &:last-child {
+        background: #e51f1f;
+    }
+    &:hover {
+        color: #000;
+    }
+}

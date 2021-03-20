@@ -1,0 +1,37 @@
+.register-form__box {
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    width: 600px;
+    overflow: hidden;
+    margin: 100px auto;
+}
+.register-form__box--headline {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+}
+.register-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.register-form__input {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+}
+.register-form__button {
+    display: block;
+    margin: 15px auto;
+    width: 300px;
+    background: #00a814;
+    &:hover {
+        color: #000;
+    }
+}
+.register-form__box--register {
+    text-align: center;
+    margin-bottom: 30px;
+}

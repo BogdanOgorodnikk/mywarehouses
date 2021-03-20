@@ -1,0 +1,27 @@
+.my-account {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.my-account__headline {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+.account-form {
+    margin-top: 20px;
+}
+.account-form__input {
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+}
+.account-form__button {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    background: #00a814;
+    &:hover {
+        color: #000;
+    }
+}

@@ -1,0 +1,35 @@
+.profit-list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.profit-list__box-head {
+    display: flex;
+    background: #ccc;
+}
+.profit-list__item-head {
+    width: 100%;
+    padding: 5px;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+.profit-list__box-body {
+    display: flex;
+    &:hover {
+        background: rgba(0,0,0, 0.4);
+    }
+}
+.profit-list__item-body {
+    width: 100%;
+    padding: 5px;
+    color: #000;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #000;
+    overflow: hidden;
+    text-align: center;
+}

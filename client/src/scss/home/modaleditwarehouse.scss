@@ -1,0 +1,49 @@
+.modal-edit__box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 36%;
+    margin: 100px 33% 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.modal-edit__headline {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+}
+.modal-edit__form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.modal-edit__form--info {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.modal-edit__form--iput {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+.modal-edit__form--block {
+    text-align: center;
+    margin-top: 15px;
+}
+.modal-edit__form--block-button {
+    margin-right: 15px;
+    width: 25%;
+    background: #00a814;
+    &:last-child {
+        background: #e51f1f;
+    }
+    &:hover {
+        color: #000;
+    }
+}

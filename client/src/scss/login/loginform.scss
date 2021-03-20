@@ -1,0 +1,37 @@
+.login-form__box {
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    width: 600px;
+    overflow: hidden;
+    margin: 100px auto;
+}
+.login-form__box--headline {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+}
+.auth-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.auth-form__input {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+}
+.auth-form__button {
+    display: block;
+    margin: 15px auto;
+    width: 300px;
+    background: #00a814;
+    &:hover {
+        color: #000;
+    }
+}
+.login-form__box--register {
+    text-align: center;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,22 @@
+.nav {
+    background: #03a9f4;
+    overflow: hidden;
+}
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav__item {
+    padding: 10px 0px;
+}
+.nav__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #f4f1e1;
+    padding: 10px 15px;
+    &:hover {
+        background: rgba(0,0,0, 0.5);
+    }
+}

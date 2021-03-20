@@ -1,0 +1,60 @@
+.opinion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.modal-manager__box {
+    width: 30%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 100px 36% 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.modal-manager__headline {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+}
+.modal-manager__form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.modal-manager__form--info {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.modal-manager__form--selector {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.modal-manager__form--block {
+    text-align: center;
+    margin-top: 15px;
+}
+.modal-manager__form--block-button {
+    margin-right: 15px;
+    width: 20%;
+    background: #00a814;
+    &:last-child {
+        background: #e51f1f;
+    }
+    &:hover {
+        color: #000;
+    }
+}
